@@ -1,0 +1,6 @@
+<app-search-bar (submitted)="onTerm($event)" (submitted)="submitVal($event)" ></app-search-bar>
+
+<button  (click)="onPrevSearch()" >See Previous Searches</button>
+
+<app-page-list [actionHide]="actionHide" [searchVal]="search" *ngIf="this.len" [pages]="pages"></app-page-list>
+
