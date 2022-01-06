@@ -1,6 +1,7 @@
 {
   "name": "wiki-search3",
   "version": "0.0.0",
+  "proxy": "http://localhost:4402",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
