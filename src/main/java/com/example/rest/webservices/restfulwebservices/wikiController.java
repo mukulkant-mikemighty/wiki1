@@ -26,7 +26,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import com.example.rest.webservices.restfulwebservices.searches.Searches;
 import com.example.rest.webservices.restfulwebservices.searches.SearchesList;
 //@ComponentScan(basePackages= {"com.example.rest.webservices.restfulwebservices"})
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class wikiController {
 	//public HashMap<String,String> getAllSearches(String searchString)
